@@ -21,43 +21,38 @@ body {
 
 a {
 	text-decoration: none;
-	color: #000;
+	color: #fff;
+}
+.main_container {
+	display: inline-block;
+	padding-top: 30px;
+	background: url(../img/user.png);
+	background-size: cover;
+	height: 100vh;
+	width: 100vw;
+	color: #fff;
 }
 .head_container {
     display: flex;
     align-items: center;
     margin: 0px auto;
-    margin-left: 40px;
+    width: 90%;
 }
 
 .menu {
 	font-size: 17px;
 	display: inline-block;
 	margin-left: 25px;
-	
-}
-
-.main_container {
-	display: inline-block;
-	padding-top: 30px;
-	
+	font-size: 20px;
 }
 
 .telephone {
-	margin-left: 60%;
+	margin-left: 63%;
+	font-size: 25px;
 }
 
 .telephone p{
 	display: inline-block;
-}
-
-.phone_png {
-	height: 20px;
-	margin-right: 5px;
-}
-
-article {
-	margin: 0px auto; 
 }
 
 .menu:hover{
@@ -66,7 +61,7 @@ article {
 
 span {
 	height: 3px;
-	background-color: #000;
+	background-color: #fff;
 	display: block;
 	margin-top: 20px;
 }
@@ -78,32 +73,211 @@ span {
 }
 h1 {
 	display: inline-block;
-	margin-left: 35px;
 	font-family: 'Pacifico', cursive;
- 	font-size: 50px;
+ 	font-size: 40px;
 }
 .info_user {
 	display: flex;
+	margin: 0px auto;
+	width: 90%;
 }
 
 .about_user {
-	margin-top: 190px;
+	margin-top: 20%;
+	margin-left: 18vw;
+	color: #000;
 }
-
 .a_u {
-	margin-top: 10px;
+	margin-right: 18vw;
 }
-
 .pay {
  	display: inline-block;
 	border: 2px solid #000;
-	margin-left: 215px;
+	margin-left: 145px;
 	line-height: 50px;
 	text-transform: uppercase;
 	text-align: center;
 	width: 100px;
 	height: 50px;
 	margin-top: 10px;
+	color: #000;
+}
+
+/*SECOND*/
+
+#second {
+	width: 100vw;
+	padding-top: 20px;
+}
+h2 {
+	text-align: center;
+	font-size: 45px;
+	margin-right: 37px;
+	margin-top: 10px;
+}
+.work_container {
+	display: flex;
+}
+.dr {
+	margin-top: 50px;
+	width: 85%;
+}
+.text_school {
+	margin-top: 150px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	margin-left: 11vw;
+}
+.pr1 {
+	text-align: center;
+	margin-top: 15px;
+	margin-left: 10vw;
+}
+.war {
+	margin: 50px;
+	margin-left: 5vw;
+	width: 90%;
 }
 
 
+.text_girl {
+	margin-left: 30vw;
+	margin-top: 125px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+.pr2 {
+	margin-left: 36vw;
+	margin-top: 15px;
+}
+.summer {
+	width: 400px;
+	margin-left: 150px;
+	width: 50%;
+}
+
+
+.three {
+	margin-top: 50px;
+	margin-bottom: 25px;
+}
+.girl {
+	margin-left: 23vw;
+	width: 55%;
+}
+
+.Reklama {
+	margin-top: 125px;
+	margin-left: 13vw;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+.pr3 {
+	margin-top: 15px;
+	margin-left: 18vw;
+}
+
+.price {
+	color: grey;
+}
+@media (max-width: 2560px) {
+	.dr {
+		margin-left: 10vw;
+	}
+	.text_girl {
+		margin-left: 35vw;
+	}
+	.girl {
+		margin-left: 29vw;
+	}
+}	
+@media (max-width: 1200px) {
+	.telephone {
+		margin-left: 63%;
+	}
+	.war {
+		width: 74%;
+	}
+	.dr {
+		width: 74%;
+	}
+	.text_school {
+		margin-left: 10vw;
+		margin-top: 100px;
+	}
+	.text_girl {
+	 	width: 70px;
+	}
+	.girl {
+		margin-left: 20vw;
+	}
+	.Reklama {
+		margin-left: -1vw;
+	}
+	.pr3 {
+		margin-left: 6vw;
+	}
+}
+
+@media (max-width: 1024px) {
+	h1 {
+		font-size: 30px;
+	}
+	.pay{
+		margin-left: 100px;
+	}
+	.telephone p{
+		font-size: 9px;
+	}
+	.text_girl {
+	 	margin-top: 70px;
+	}
+}
+
+@media (max-width: 970px) {
+	.telephone p {
+		display: none;
+}
+
+
+
+@media (max-width: 768px) {
+	h1 {
+		font-size: 20px;
+	}
+	.pay{
+		margin-left: 45px;
+	}
+	.telephone p{
+		display: none;
+	}
+	.war {
+		display: none;
+	}
+	.dr {
+	margin-left: 6vw;
+	}
+	.summer {
+		margin-left: 15vw;
+	}
+}
+
+
+
+@media (max-width: 480px) {
+	h2 {
+		margin-left: 250px;
+	}
+	.pay{
+		margin-left: 15px;
+	}
+	.telephone p{
+		display: none;
+}
+
+
+/*footer*/
+
+.creator {
+	color: #000;
+}
